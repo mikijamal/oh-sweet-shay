@@ -6,7 +6,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: true}));
 
 app.get("/", function(req, res){
-  res.sendFile("main.html");
+  res.sendFile(__dirname + "/main.html");
 });
 
 app.listen(process.env.PORT || 3000, function(req, res){

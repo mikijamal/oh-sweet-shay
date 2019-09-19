@@ -1,0 +1,122 @@
+/*Top logo and navigation bar.*/
+.logo{
+  width: 250px;
+  height: 70px;
+}
+.menu-items {
+  font-size: .8rem;
+  font-family: 'Questrial', sans-serif;
+  font-weight: bold;
+  color: #413D3D;
+}
+.thenavbar{
+  margin: 30px 30px 0;
+}
+.r-nav{
+  margin-top: 25px;
+}
+a:hover{
+  font-weight: lighter;
+    text-decoration: none;
+    color: #F56464;
+}
+.whitebox{
+  height: 500px;
+  width: auto;
+}
+
+/*dancers, text and CTA*/
+.col-2{
+  padding: 0;
+}
+.dancers{
+  width: 240px;
+  height: 250px;
+}
+.box1{
+  background-color: #F56464;
+  height: 450px;
+  border-top-right-radius: 100%;
+  border-top-left-radius: 100%;
+  position: absolute;
+  z-index: -1;
+  margin-top: 150px;
+}
+.content-text{
+  color: #ffffff;
+  margin-bottom: 2.5rem;
+  padding: 0;
+  font-family: 'Nanum Myeongjo', serif;
+  font-size: 1.5rem;
+  text-align: center;
+}
+.order-btn{
+  text-align: center;
+  margin: 5rem auto;
+}
+.myButton {
+	-moz-box-shadow: 0 10px 14px -7px #707070;
+	-webkit-box-shadow: 0 10px 14px -7px #707070;
+	box-shadow: 0 10px 14px -7px #707070;
+	background-color:#F56464;
+	-moz-border-radius:37px;
+	-webkit-border-radius:37px;
+	border-radius:37px;
+	border:10px solid #FFD4D4;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:20px;
+	font-weight:bold;
+	padding:14px 25px;
+	text-decoration:none;
+}
+.myButton:hover {
+	background-color:#FF5050;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*product menu*/
+h1{
+  font-family: 'Nanum Myeongjo', serif;
+}
+.product-menu{
+text-align: center;
+margin: 12rem auto 0;
+}
+.types{
+  margin: 3rem auto 0;
+  font-family: 'Nanum Myeongjo', serif;
+}
+.kinds{
+  list-style-type: none;
+  padding: 3rem 0;
+  font-size: 1.5rem;
+}
+
+
+
+
+/*the physical address*/
+.box2{
+  background-color: #F56464;
+  height: 650px;
+  position: absolute;
+  z-index: -1;
+}
+.address{
+  text-align: center;
+  color: #ffffff;
+  font-family: 'Questrial', sans-serif;
+  margin-top: 10rem;
+}
+.copyright{
+  margin:7rem auto 3rem;
+  width: 120px;
+  height: 40px;
+}
